@@ -1,0 +1,10 @@
+declare module "*.jpg";
+declare module "*.png";
+declare module "*.jpeg";
+declare module "*.gif";
+declare module 'is-equal';
+declare var STATIC_URL: string;
+declare var API_URL: string;
+declare var APP_URL: string;
+declare var APP_VERSION: string;
+declare var MODE: string;

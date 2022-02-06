@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'Muller';
+	src: url('../assets/fonts/MullerRegular.woff2') format('woff2'),
+		url('../assets/fonts/MullerRegular.woff') format('woff'),
+		url('../assets/fonts/MullerRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../assets/fonts/MullerBold.woff2') format('woff2'),
+		url('../assets/fonts/MullerBold.woff') format('woff'),
+		url('../assets/fonts/MullerBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Muller', Roboto, Arial, sans-serif;
+	overflow: hidden;
+}
+
+a {
+	color: inherit;
+	cursor: inherit;
+}
+a:hover,
+button:hover {
+	cursor: inherit;
+}
+
+.color-hp {
+	color: #be3523;
+}
+
+.color-ap {
+	color: #669624;
+}
+
+.color-spd {
+	color: mediumaquamarine;
+}
+.color-dmg {
+	color: #b43f85;
+}
+.color-arm {
+	color: lightblue;
+}
